@@ -243,6 +243,8 @@ public class MainActivity extends AppCompatActivity {
         loadingAnimationView.setVisibility(View.GONE);
     }
 
+
+
     public static class ForecastListAdapter extends RecyclerView.Adapter<ForecastListAdapter.ViewHolder> {
 
         private List<ForecastWeatherItem> items;
@@ -277,6 +279,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
+
+
         @Override
         public int getItemCount() {
             return items.size();
@@ -295,6 +299,8 @@ public class MainActivity extends AppCompatActivity {
                 descriptionTextView = itemView.findViewById(R.id.weather_description);
             }
         }
+
+
 
     }
 }

@@ -3,4 +3,7 @@
 
     <string name="current_temp">%1$s \u2103</string>
     <string name="cities">Cities</string>
+    <string name="appwidget_text">Weather</string>
+    <string name="add_widget">Add widget</string>
+    <string name="configure">Configure</string>
 </resources>
